@@ -4,6 +4,56 @@
     padding-right: 10%; 
   }
 
+#fullbodey {
+  background-image: url("/assets/topography.png");
+  
+}
+
 h1 {
     font-size: 50px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  color: #fd6dbc;
+  background-color: #333333;  
+}
+
+a:link {
+  color: #fd6dbc;
+}
+
+a:visited {
+  color:#fd6dbc;
+}
+
+li {
+  float: left;
+  padding: 10px;
+}
+
+#studType {
+  color: #fd6dbc;
+}
+
+#sor {
+  line-height: 2;
+}
+
+#elv {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  letter-spacing: 10px;
+}
+
+#wiki {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
 }
