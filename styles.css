@@ -1,12 +1,13 @@
 #mbody {
-    font-family: 'Noto Sans', sans-serif;    
+  text-align: justify;
     padding-left: 10%;
     padding-right: 10%; 
   }
 
-#fullbodey {
-  background-image: url("/assets/topography.png");
-  
+#fullbody {
+  background-image: url("assets/topography.png");
+  font-family: 'Roboto Slab', serif;
+  margin: 0px;
 }
 
 h1 {
@@ -18,10 +19,12 @@ h1 {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
   overflow: hidden;
   color: #fd6dbc;
-  background-color: #333333;  
+  background-color: #333333;
+  text-transform: uppercase;    
 }
 
 a:link {
@@ -34,11 +37,12 @@ a:visited {
 
 li {
   float: left;
-  padding: 10px;
+  padding: 10px;  
 }
 
 #studType {
   color: #fd6dbc;
+  font-size: 30px;
 }
 
 #sor {
